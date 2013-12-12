@@ -1,29 +1,30 @@
 {
-  "author": "Tom Carden <tom@tom-carden.co.uk>",
-  "contributors": [
+  "version"      : "1.0.0",
+  "name"         : "express-thunder",
+  "description"  : "Express 3.x locals for layout, partial and blocks for thunder template engine.",
+  "author"       : "dreamerslab <ben@dreamerslab.com>",
+  "contributors" : [
+    "Tom Carden <tom@tom-carden.co.uk>",
     "Robert Sköld <robert@publicclass.se> (http://publicclass.se)"
   ],
-  "name": "ejs-locals",
-  "description": "Express 3.x locals for layout, partial and blocks.",
-  "version": "1.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/randometc/ejs-locals.git"
+  "repository" : {
+    "type"     : "git",
+    "url"      : "git://github.com/dreamerslab/express-thunder.git"
   },
-  "homepage": "https://github.com/randometc/ejs-locals",
-  "engines": {
-    "node": ">=0.6.0"
+  "homepage" : "https://github.com/dreamerslab/express-thunder",
+  "engines"  : {
+    "node"   : ">=0.8.0"
   },
-  "dependencies": {
-    "ejs": "0.8.x"
+  "dependencies" : {
+    "thunder"    : "0.1.10"
   },
-  "devDependencies": {
-    "express": "~3.0.0",
-    "mocha": "*",
-    "should": "*",
-    "methods": "0.0.1"
+  "devDependencies" : {
+    "express"       : "3.4.7",
+    "mocha"         : "1.15.1",
+    "should"        : "2.1.1",
+    "methods"       : "0.1.0"
   },
-  "scripts": {
-    "test": "mocha -r should -R spec"
+  "scripts" : {
+    "test"  : "mocha -r should -R spec"
   }
 }
