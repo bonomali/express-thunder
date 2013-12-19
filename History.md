@@ -1,5 +1,11 @@
 # History
 
+## 1.1.6 / 2013-12-19
+
+- [refactoring] Added `__uid` to render options
+
+
+
 ## 1.1.5 / 2013-12-18
 
 - [update packages] thunder->0.1.13

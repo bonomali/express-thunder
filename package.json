@@ -1,5 +1,5 @@
 {
-  "version"      : "1.1.5",
+  "version"      : "1.1.6",
   "name"         : "express-thunder",
   "description"  : "Express 3.x locals for layout, partial and blocks for thunder template engine.",
   "author"       : "dreamerslab <ben@dreamerslab.com>",
