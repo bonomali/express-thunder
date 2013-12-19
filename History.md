@@ -1,5 +1,11 @@
 # History
 
+## 1.1.4 / 2013-12-18
+
+- [update packages] thunder->0.1.12
+
+
+
 ## 1.1.3 / 2013-12-18
 
 - [bug fix] Use `/` to load partial from view root dir instead of current dir
